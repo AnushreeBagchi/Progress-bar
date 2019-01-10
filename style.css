@@ -2,10 +2,11 @@ html{
     background-color: antiquewhite;
 }
 
-.bar{
+#bar{
     height: 2em;
     width: 30em;
     border: solid 1px black;
+    display: flex;
 }
 
 .parent{
@@ -17,8 +18,14 @@ html{
     align-items: center; 
 }
 
-.button{
-    width: 10em;
+#button{
+    width: 12em;
     height: 2em;
     margin: 2em;
+}
+
+.progress{
+    height:100%;
+    width: 10%;
+    background-color:green;
 }
